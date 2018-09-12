@@ -1,0 +1,79 @@
+@import "variables";
+
+html {
+  background: $background-colour;
+  color: $text-colour;
+  font-family: $system-fonts;
+  font-size: calc(#{$font-size-default} + 0.5vw);
+  line-height: $line-height-default;
+  overflow-wrap: break-word;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+main {
+  display: block;
+  max-width: 32rem;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+* + * {
+  margin-top: 1.5rem;
+}
+
+p + p {
+  margin-top: 0.75rem;
+}
+
+hr {
+  height: 0.25rem;
+  border: 2px solid $accent-colour;
+  border-left: 0;
+  border-right: 0;
+  margin: 2.1rem 0;
+}
+
+:focus {
+  outline: .125rem solid $highlight-colour;
+  outline-offset: .125rem;
+}
+
+a {
+  color: $link-colour;
+
+  &:link, &:visited {
+    color: $link-colour;
+  }
+
+  &:hover, &:active, &:focus {
+    color: $highlight-colour;
+  }
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
