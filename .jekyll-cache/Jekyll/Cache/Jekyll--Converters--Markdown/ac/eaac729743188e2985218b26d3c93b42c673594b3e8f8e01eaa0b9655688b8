@@ -1,0 +1,56 @@
+I"�<p>One of the most common things I get asked by designers new to government is how to set up a new project using the <a href="https://govuk-prototype-kit.herokuapp.com/docs">GOV.UK Prototype Kit</a>.</p>
+
+<p>There are already some great guides out there for publishing to Heroku, for example GOV.UK’s guide <a href="https://govuk-prototype-kit.herokuapp.com/docs/publishing-on-heroku">Publishing on the web</a>. There’s also guides for archiving versions of your prototype, for example Alex Torrance’s article <a href="https://designnotes.blog.gov.uk/2016/05/13/archiving-versions-of-a-prototype/">Archiving versions of a prototype</a>.</p>
+
+<p>My workflow is very similar, although I use the command line a lot less, and I think that makes it easier for people new to this. So I thought I’d share.</p>
+
+<h2 id="set-up-a-repo-on-github">Set up a repo on GitHub</h2>
+<p>Most departments I’ve worked with use GitHub for version control. I’m not going to delve into using git here but if you’re new to it I highly recommend Alice Barlett’s <a href="https://www.youtube.com/watch?v=eWxxfttcMts">Git for Humans talk</a>.</p>
+
+<p>I use <a href="https://www.sourcetreeapp.com">Sourcetree</a> rather than command line as I find a git GUI much easier to use and fix issues with. But whichever method you like, go ahead and create a new repo for your prototype.</p>
+
+<p><a href="https://govuk-prototype-kit.herokuapp.com/docs/install">Download a copy of the kit</a> and push it to your repo (don’t miss the gitignore hidden file in the folder).</p>
+
+<h2 id="deploy-to-heroku">Deploy to Heroku</h2>
+<p>You can deploy to Heroku in the command line as covered in the GOV.UK guide, but there’s a bunch of commands to learn, and time spent in the terminal, which can be daunting if you’ve never used it before. The good news is you can deploy your prototype using Heroku’s website as well.</p>
+
+<h3 id="1-sign-in-to-heroku">1. Sign in to Heroku</h3>
+<p><a href="https://id.heroku.com/login">Sign in to your Heroku account</a> or <a href="https://signup.heroku.com">create an account</a> if you’re new to Heroku.</p>
+
+<h3 id="2-create-a-new-app">2. Create a new app</h3>
+<p>On your personal apps screen your should see a list of any existing apps and a <strong>New</strong> button that will drop down with a couple of options. Select <strong>Create new app</strong>.</p>
+
+<p>You’ll need to choose a name for your Heroku app which will determine the URL for your prototype; for example, the name <strong>example-prototype</strong> would equate to <strong>https://example-prototype.herokuapp.com</strong>.</p>
+
+<p>Finally set the region to Europe and go ahead and hit the <strong>Create app</strong> button.</p>
+
+<h3 id="3-deploy-your-prototype">3. Deploy your prototype</h3>
+<p>Select the <strong>Deploy</strong> tab. You should see a heading for <strong>Deployment method</strong> with an option for using GitHub. If you select this it will link your GitHub account.</p>
+
+<p>Once you’ve linked your account you’ll be able to search for your prototype repo and select the <strong>Connect</strong> button.</p>
+
+<p>With your app connected to your repo you should now see an option near the bottom of the page to <strong>Deploy a GitHub branch</strong>. Go ahead and deploy the master branch. Even better than that though, is the option for <strong>Automatic deployment</strong> right above it. If you select the <strong>Enable automatic deploys</strong> button in that section your Heroku app will update any time you push to master!</p>
+
+<h3 id="4-add-a-username-and-password">4. Add a username and password</h3>
+<p>One more thing before you’re done, select the <strong>Settings</strong> tab and you should see a <strong>Config Vars</strong> heading with a button to <strong>Reveal config vars</strong>. You’ll need to add two keys, one for <strong>USERNAME</strong> and one for <strong>PASSWORD</strong> with a value for each.</p>
+
+<p>Some departments have rules around what these should be, so check, but you don’t have to worry too much about a strong password here. It’s mostly to stop the public stumbling across your prototype and thinking it’s a live service.</p>
+
+<h2 id="archiving-versions">Archiving versions</h2>
+<p>The guide on the gov blog about this uses tags on your repo to flag where a new version was started, and creates a new app based on it. I find that designers aren’t generally aware of tags in git but usually have an understanding of branches, so I use them instead. Branches also have the advantage of being able to set up automatic deploys on Heroku.</p>
+
+<p>I tend to create a new branch for each sprint’s worth of work, along with a new Heroku app named similarly, for example <strong>example-app-sprint1</strong>. This means that changes don’t affect ongoing research or internal reviews while I’m working on the next iteration.</p>
+
+<p>Within the prototype I use the index file as a log of each sprint’s work, with any changes and findings listed alongside a link to the Heroku app.</p>
+
+<p>The process for this is largely the same as earlier:</p>
+<ul>
+  <li>create a new branch, for example <strong>sprint1</strong></li>
+  <li>push your changes to GitHub</li>
+  <li>create a new app on Heroku (I usually set the username and password the same across all apps)</li>
+  <li>setup automatic deploys, selecting your new branch in the dropdown</li>
+  <li>once the sprint is done update the index file and merge into master</li>
+</ul>
+
+<p>That’s it, if you have any feedback you can <a href="https://twitter.com/chrisnothanson">reach out to me on Twitter</a>.</p>
+:ET

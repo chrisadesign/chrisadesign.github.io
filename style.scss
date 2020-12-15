@@ -1,0 +1,190 @@
+---
+---
+
+@import "variables";
+
+html {
+  font-family: $system-fonts;
+  font-size: calc(#{$font-size-default} + 0.5vw);
+  line-height: $line-height-default;
+  overflow-wrap: break-word;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+
+  background: $col-light-main;
+  color: $col-dark-main;
+
+  @media (prefers-color-scheme: dark) {
+    background: $col-dark-main;
+    color: $col-light-main;
+  }
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+header {
+  padding: 2rem 2rem 5rem;
+  border-top: .6rem solid $col-highlight;
+
+  @media (prefers-color-scheme: dark) {
+    border-color: $col-link;
+  }
+}
+
+.header-logo {
+  font-size: 1.75rem;
+  font-weight: bold;
+  line-height: 1;
+  text-decoration: none;
+  color: $col-dark-main;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:link, &:visited {
+    color: $col-dark-main;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    color: $col-light-main;
+
+    &:link, &:visited {
+      color: $col-light-main;
+    }
+  }
+}
+
+
+.header-nav {
+  margin: .5rem 0 0;
+  line-height: 1.75rem;
+
+  a {
+    margin: 0 .5rem 0 0;
+  }
+
+  @media (min-width: 600px) {
+    margin: 0;
+    float: right;
+
+    a {
+      margin: 0 0 0 1rem;
+      text-align: right;
+    }
+  }
+}
+
+main {
+  display: block;
+  max-width: 32rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+* + * {
+  margin-top: 1.5rem;
+}
+
+p + p {
+  margin-top: 0.75rem;
+}
+
+li + li {
+  margin-top: 0.25rem;
+}
+.post + .post {
+  padding-top: 1.5rem;
+  border-top: 1px solid grey;
+}
+
+.read-more {
+  text-transform: uppercase;
+  font-size: 0.6rem;
+}
+
+:focus {
+  outline: .125rem solid $col-link;
+  outline-offset: .125rem;
+
+  @media (prefers-color-scheme: dark) {
+    outline-color: $col-highlight;
+  }
+}
+
+a {
+  color: $col-link;
+
+  &:link, &:visited {
+    color: $col-link;
+  }
+
+  &:hover, &:active, &:focus {
+    color: $col-highlight;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    color: $col-highlight;
+
+    &:link, &:visited {
+      color: $col-highlight;
+    }
+
+    &:hover, &:active, &:focus {
+      color: $col-link;
+    }
+  }
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+  line-height: 1.1;
+  margin-bottom:0;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+h3 + p {
+  margin-top: 0.5rem;
+}
+
+blockquote {
+  padding: 0.25rem 1rem;
+  margin-left: 0;
+  margin-right: 0;
+  background: lighten($col-light-main, 5%);
+  border-left: 1rem solid $col-highlight;
+
+  @media (prefers-color-scheme: dark) {
+    background: darken($col-dark-main, 5%);
+    border-color: $col-link;
+  }
+}
+
+.visually-hidden {
+    position: absolute;
+    top: auto;
+    left: -9999rem;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
