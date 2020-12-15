@@ -1,24 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#031634" />
+---
+layout: default
+---
 
-    <title>Chris Armstrong &ndash; Sheffield based designer</title>
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
 
-    <link href="assets/css/main.css" media="screen" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <main>
-      <h1>Chris Armstrong</h1>
-      <h2>Sheffield based interaction design contractor.</h2>
-      <p>I&rsquo;m currrently helping the <a href="https://www.nhsbsa.nhs.uk/">NHSBSA</a> improve the experience of NHS Jobs.</p>
-      <p>In recent years I&rsquo;ve been helping government departments deliver great services for their users. I&rsquo;ve spent time with <a href="https://www.gov.uk/government/organisations/her-majestys-prison-and-probation-service">Her Majesty&rsquo;s Prison & Probation Service</a>, the <a href="https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs">Department for Environment, Food &amp; Rural Affairs</a>, the <a href="https://www.gov.uk/government/organisations/department-for-education">Department for Education</a>, the <a href="https://www.gov.uk/government/organisations/department-for-work-pensions">Department for Work and Pensions</a>, and the <a href="https://www.gov.uk/government/organisations/home-office">Home Office</a>.</p>
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-      <hr>
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
 
-      <p>If you want to know a bit more about my work history or get in touch about some work you can <a href="https://www.linkedin.com/in/chanso1/">connect on LinkedIn</a>. You can also <a href="https://twitter.com/ChrisPArmstrong">find me on Twitter</a> where I occassionally share nonsense, and if you&rsquo;ve not had enough of me by then you can <a href="https://www.instagram.com/top_bunk/">check out my Instagram</a> for pictures of my cats.</p>
-    </main>
-  </body>
-</html>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more"><span class="visually-hidden">{{ post.title }}: </span>Read full post</a>
+    </article>
+  {% endfor %}
+</div>
