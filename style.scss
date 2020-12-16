@@ -104,10 +104,11 @@ li + li {
   border-top: 1px solid grey;
 }
 
-.read-more {
+.read-more, .date {
   text-transform: uppercase;
   font-size: 0.6rem;
 }
+
 
 :focus {
   outline: .125rem solid $col-link;

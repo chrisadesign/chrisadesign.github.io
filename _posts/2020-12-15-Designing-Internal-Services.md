@@ -8,7 +8,7 @@ I wanted to share some thoughts on designing for internal (caseworker) services 
 **Important note:  
 This is not an attack or condemnation of anyone or any team.**
 
-## Where to Start
+## Where to start
 
 The first thing is that the service manual has [design guidance for services for government users](https://www.gov.uk/service-manual/design/services-for-government-users), which says:
 
