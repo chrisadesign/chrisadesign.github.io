@@ -29,7 +29,7 @@ body {
 }
 
 header {
-  padding: 2rem 2rem 5rem;
+  padding: 2rem;
   border-top: .6rem solid $col-highlight;
 
   @media (prefers-color-scheme: dark) {
@@ -85,7 +85,7 @@ main {
   display: block;
   max-width: 32rem;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 2rem 2rem 5rem;
 }
 
 * + * {
