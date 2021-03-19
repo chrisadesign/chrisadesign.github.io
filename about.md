@@ -4,9 +4,9 @@ title: About
 permalink: /about/
 ---
 
-## Sheffield based interaction design contractor.
+## Interaction design contractor
 
-I'm currently  working with [HM Land Registry](https://www.gov.uk/government/organisations/land-registry) to redesign and improve their internal caseworking products.
+I&rsquo;m currently  working with [HM Land Registry](https://www.gov.uk/government/organisations/land-registry) to redesign and improve their internal caseworking products.
 
 In recent years I&rsquo;ve been helping government departments deliver great services for their users.
 
@@ -21,4 +21,4 @@ I&rsquo;ve spent time with:
 
 If you want to know a bit more about my work history or get in touch about some work you can [connect on LinkedIn](https://www.linkedin.com/in/chrispaularmstrong/).
 
-You can also [find me on Twitter](https://twitter.com/chrisnothanson) where I occasionally share nonsense, and if you've not had enough of me by then you can [check out my Instagram](https://www.instagram.com/chris.not.hanson/) for pictures of my cats.
+You can also [find me on Twitter](https://twitter.com/chrisnothanson) where I occasionally share nonsense, and if you&rsquo;ve not had enough of me by then you can [check out my Instagram](https://www.instagram.com/chris.not.hanson/) for pictures of my cats.
