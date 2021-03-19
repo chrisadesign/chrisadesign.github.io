@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-## Interaction design contractor
+## Interaction design contractor based in Scotland. 
 
 I&rsquo;m currently  working with [HM Land Registry](https://www.gov.uk/government/organisations/land-registry) to redesign and improve their internal caseworking products.
 
