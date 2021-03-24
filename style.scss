@@ -181,6 +181,10 @@ blockquote {
   }
 }
 
+p img {
+  max-width: 100%;
+}
+
 .visually-hidden {
     position: absolute;
     top: auto;
