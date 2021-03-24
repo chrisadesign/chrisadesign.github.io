@@ -6,4 +6,4 @@ permalink: /portfolio/
 
 # Goblin art
 
-![Goblin Franny](/images/goblin.jpeg)
+![Goblin Franny](/images/goblin.jpeg =100%)
