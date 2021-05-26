@@ -4,13 +4,14 @@ title: About
 permalink: /about/
 ---
 
-## Interaction design contractor based in Scotland. 
+## Interaction design contractor based in Scotland
 
-I&rsquo;m currently  working with [HM Land Registry](https://www.gov.uk/government/organisations/land-registry) to redesign and improve their internal caseworking products.
+I&rsquo;m taking a wee break from work at the moment (2020 was a hell of a year eh?) but I'll be looking for new work soon. 
 
 In recent years I&rsquo;ve been helping government departments deliver great services for their users.
 
 I&rsquo;ve spent time with:
+* [HM Land Registry](https://www.gov.uk/government/organisations/land-registry) to redesign and improve their internal caseworking products
 * [NHSBSA](https://www.nhsbsa.nhs.uk/) helping to improve the experience of [NHS Jobs](https://beta.jobs.nhs.uk/home)
 * [Her Majesty&rsquo;s Prison & Probation Service](https://www.gov.uk/government/organisations/her-majestys-prison-and-probation-service)
 * [Department for Environment, Food & Rural Affairs](https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs)
