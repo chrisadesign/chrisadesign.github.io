@@ -6,9 +6,9 @@ permalink: /about/
 
 ## Interaction design contractor based in Scotland
 
-I&rsquo;m taking a wee break from work at the moment (2020 was a hell of a year eh?) but I'll be looking for new work soon. 
+I&rsquo;m currently working with [Cabinet Office](https://www.gov.uk/government/organisations/cabinet-office) on an alpha, looking at how we might improve the process for applying for a Gender Recognition Certificate.
 
-In recent years I&rsquo;ve been helping government departments deliver great services for their users.
+In recent years I&rsquo;ve been helping other government departments deliver great services for their users.
 
 I&rsquo;ve spent time with:
 * [HM Land Registry](https://www.gov.uk/government/organisations/land-registry) to redesign and improve their internal caseworking products
