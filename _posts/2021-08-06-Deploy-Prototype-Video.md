@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Video tutorial – How to deploy a GOV.UK Prototype Kit to Heroku
+title: Video tutorial – How to deploy a prototype to Heroku
 ---
 
 I've made a second YouTube tutorial, this time covering [how to setup and deploy a prototype to Heroku](https://www.youtube.com/watch?v=wtP97qSDlNg).
