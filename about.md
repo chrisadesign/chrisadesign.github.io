@@ -6,7 +6,7 @@ permalink: /about/
 
 ## Interaction design contractor based in Scotland
 
-I&rsquo;m currently working with [Cabinet Office](https://www.gov.uk/government/organisations/cabinet-office) on an alpha, looking at how we might improve the process for applying for a Gender Recognition Certificate.
+I&rsquo;m currently working with [Cabinet Office](https://www.gov.uk/government/organisations/cabinet-office) on a beta to improve the process for applying for a Gender Recognition Certificate, and [GDS](https://www.gov.uk/government/organisations/government-digital-service) helping with continuous improvement for GovWifi.
 
 In recent years I&rsquo;ve been helping other government departments deliver great services for their users.
 
