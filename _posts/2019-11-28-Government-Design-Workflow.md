@@ -3,9 +3,9 @@ layout: post
 title: My workflow for government design projects
 ---
 
-> Update: I don't use multiple Heroku instances for versioning anymore, mostly because other team members find it harder to navigate. Instead I have a versioning system baked into my [fork of the prototype kit](/Prototype-Kit-Fork/).
-
 One of the most common things I get asked by designers new to government is how to set up a new project using the [GOV.UK Prototype Kit](https://govuk-prototype-kit.herokuapp.com/docs).
+
+> Update: I don't use multiple Heroku instances for versioning anymore, mostly because other team members find it harder to navigate. Instead I have a versioning system baked into my [fork of the prototype kit](/Prototype-Kit-Fork/).
 
 There are already some great guides out there for publishing to Heroku, for example GOV.UK's guide [Publishing on the web](https://govuk-prototype-kit.herokuapp.com/docs/publishing-on-heroku). There's also guides for archiving versions of your prototype, for example Alex Torrance's article [Archiving versions of a prototype](https://designnotes.blog.gov.uk/2016/05/13/archiving-versions-of-a-prototype/).
 
