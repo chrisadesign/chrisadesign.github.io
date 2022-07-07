@@ -7,12 +7,17 @@ layout: default
     <article class="post">
 
       <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+      <div class="date">
+        Written on {{ page.date | date: "%e %B %Y" }}
+      </div>
 
+<!--
       <div class="entry">
         {{ post.excerpt }}
       </div>
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more"><span class="visually-hidden">{{ post.title }}: </span>Read full post</a>
+-->
     </article>
   {% endfor %}
 </div>
