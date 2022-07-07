@@ -6,11 +6,13 @@ permalink: /about/
 
 ## Interaction design contractor based in Scotland
 
-I&rsquo;m currently working with [Cabinet Office](https://www.gov.uk/government/organisations/cabinet-office) on a beta to improve the process for applying for a Gender Recognition Certificate, and [GDS](https://www.gov.uk/government/organisations/government-digital-service) helping with continuous improvement for GovWifi.
+I&rsquo;m a user centred design contractor who helps government departments to deliver great services for their users.
 
-In recent years I&rsquo;ve been helping other government departments deliver great services for their users.
+At the moment I&rsquo;m working with [Planning Inspectorate](https://www.gov.uk/government/organisations/planning-inspectorate) on the appeal a planning decision beta.
 
-I&rsquo;ve spent time with:
+I&rsquo;ve also spent time with:
+* [Cabinet Office](https://www.gov.uk/government/organisations/cabinet-office) on a beta to improve the process for applying for a Gender Recognition Certificate
+* [GDS](https://www.gov.uk/government/organisations/government-digital-service) helping with continuous improvement for GovWifi
 * [HM Land Registry](https://www.gov.uk/government/organisations/land-registry) to redesign and improve their internal caseworking products
 * [NHSBSA](https://www.nhsbsa.nhs.uk/) helping to improve the experience of [NHS Jobs](https://beta.jobs.nhs.uk/home)
 * [Her Majesty&rsquo;s Prison & Probation Service](https://www.gov.uk/government/organisations/her-majestys-prison-and-probation-service)
@@ -19,7 +21,8 @@ I&rsquo;ve spent time with:
 * [Department for Work and Pensions](https://www.gov.uk/government/organisations/department-for-work-pensions)
 * [Home Office](https://www.gov.uk/government/organisations/home-office) (as a civil servant) working within immigration
 
+### Get in touch
 
-If you want to know a bit more about my work history or get in touch about some work you can [connect on LinkedIn](https://www.linkedin.com/in/chrispaularmstrong/).
+If you want to know a bit more about my work history or get in touch you can [connect on LinkedIn](https://www.linkedin.com/in/chrispaularmstrong/).
 
-You can also [find me on Twitter](https://twitter.com/chrisnothanson) where I occasionally share nonsense, and if you&rsquo;ve not had enough of me by then you can [check out my Instagram](https://www.instagram.com/chris.not.hanson/) for pictures of my cats.
+You can also [find me on Twitter](https://twitter.com/chrisnothanson) where I occasionally share nonsense.
