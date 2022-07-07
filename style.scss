@@ -89,7 +89,7 @@ main {
 }
 
 * + * {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 
 p + p {
@@ -100,8 +100,7 @@ li + li {
   margin-top: 0.25rem;
 }
 .post + .post {
-  padding-top: 1.5rem;
-  border-top: 1px solid grey;
+  padding-top: 1rem;
 }
 
 .read-more, .date {
