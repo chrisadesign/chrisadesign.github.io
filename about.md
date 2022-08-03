@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-## Interaction design with <span id="exp"><span class="years">00</span> years, <span class="days">00</span> days, <span class="hours">00</span> hours, <span class="minutes">00</span> minutes, <span class="seconds">00</span> seconds experiece</span>
+## Interaction design with <span id="exp"><span class="years">00</span> years, <span class="days">00</span> days, <span class="hours">00</span> hours, <span class="minutes">00</span> minutes, <span class="seconds">00</span> seconds experience</span>
 
 I&rsquo;m a user centred design contractor who helps government departments to deliver great services for their users.
 
