@@ -82,7 +82,7 @@ header {
 main {
   display: block;
   margin: 0;
-  padding-bottom: 10rem;
+  padding: 0 0 10rem;
 }
 
 * + * {
@@ -142,14 +142,11 @@ a {
 h1, h2, h3 {
   font-weight: bold;
   line-height: 1.1;
-  margin-bottom:0;
+  margin: 2rem 0 0;
 }
 
 h1 {
   font-size: 2rem;
-  margin-top: 2.5rem;
-  padding-top: 2.5rem;
-  border-top: 1px solid $col-link;
 }
 
 h2 {
