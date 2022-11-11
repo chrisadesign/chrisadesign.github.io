@@ -24,13 +24,15 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
+  width: 95%;
+  max-width: 35rem;
   overflow-x: hidden;
 }
 
 header {
-  padding: 2rem;
-  border-top: .6rem solid $col-highlight;
+  padding: 2rem 0;
+//   border-top: .6rem solid $col-highlight;
 
   @media (prefers-color-scheme: dark) {
     border-color: $col-link;
@@ -38,8 +40,7 @@ header {
 }
 
 .header-logo {
-  font-size: 1.75rem;
-  font-weight: bold;
+  font-size: 1.25rem;
   line-height: 1;
   text-decoration: none;
   color: $col-dark-main;
@@ -64,7 +65,7 @@ header {
 
 .header-nav {
   margin: .5rem 0 0;
-  line-height: 1.75rem;
+  line-height: 1;
 
   a {
     margin: 0 .5rem 0 0;
@@ -83,9 +84,7 @@ header {
 
 main {
   display: block;
-  max-width: 32rem;
-  margin: 0 auto;
-  padding: 2rem 2rem 5rem;
+  padding: 2rem 0 5rem;
 }
 
 * + * {
@@ -149,7 +148,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-top: 0;
 }
 
