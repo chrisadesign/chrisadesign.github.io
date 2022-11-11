@@ -31,8 +31,8 @@ body {
 }
 
 header {
-  padding: 2rem 0;
-//   border-top: .6rem solid $col-highlight;
+  padding: 6rem 0;
+  border-top: .3rem solid $col-highlight;
 
   @media (prefers-color-scheme: dark) {
     border-color: $col-link;
@@ -84,7 +84,8 @@ header {
 
 main {
   display: block;
-  padding: 2rem 0 5rem;
+  margin: 0;
+  padding-bottom: 10rem;
 }
 
 * + * {
@@ -149,7 +150,9 @@ h1, h2, h3 {
 
 h1 {
   font-size: 2rem;
-  margin-top: 0;
+  margin-top: 2.5rem;
+  padding-top: 2.5rem;
+  border-top: 1px solid $col-link;
 }
 
 h2 {
