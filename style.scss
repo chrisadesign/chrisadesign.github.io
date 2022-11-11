@@ -16,10 +16,12 @@ html {
 
   background: $col-light-main;
   color: $col-dark-main;
+  border-top: .3rem solid $col-highlight;
 
   @media (prefers-color-scheme: dark) {
     background: $col-dark-main;
     color: $col-light-main;
+    border-color: $col-link;
   }
 }
 
@@ -31,12 +33,7 @@ body {
 }
 
 header {
-  padding: 6rem 0;
-  border-top: .3rem solid $col-highlight;
-
-  @media (prefers-color-scheme: dark) {
-    border-color: $col-link;
-  }
+  padding: 6rem 0 0;
 }
 
 .header-logo {
