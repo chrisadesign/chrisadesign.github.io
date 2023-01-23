@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-## Interaction designer with <span id="exp"><span class="years">00</span> years, <span class="days">00</span> days, <span class="hours">00</span> hours, <span class="minutes">00</span> minutes, <span class="seconds">00</span> seconds experience</span>
+## Interaction designer with <span id="exp"><span class="years">00</span> years, <span class="days">00</span> days, <span class="hours">00</span> hours, <span class="minutes">00</span> minutes experience</span>
 
 I&rsquo;m a user centred design contractor who helps government departments to deliver great services for their users.
 
@@ -16,7 +16,7 @@ I&rsquo;ve also spent time with:
 * [GDS](https://www.gov.uk/government/organisations/government-digital-service) helping with continuous improvement for GovWifi
 * [HM Land Registry](https://www.gov.uk/government/organisations/land-registry) to redesign and improve their internal caseworking products
 * [NHSBSA](https://www.nhsbsa.nhs.uk/) helping to improve the experience of [NHS Jobs](https://beta.jobs.nhs.uk/home)
-* [Her Majesty&rsquo;s Prison & Probation Service](https://www.gov.uk/government/organisations/her-majestys-prison-and-probation-service)
+* [HM Prison &amp; Probation Service](https://www.gov.uk/government/organisations/her-majestys-prison-and-probation-service)
 * [Department for Environment, Food & Rural Affairs](https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs)
 * [Department for Education](https://www.gov.uk/government/organisations/department-for-education)
 * [Department for Work and Pensions](https://www.gov.uk/government/organisations/department-for-work-pensions)
