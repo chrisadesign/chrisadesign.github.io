@@ -29,7 +29,7 @@ html {
 body {
   margin: 0 auto;
   width: 90%;
-  max-width: 26rem;
+  max-width: 28rem;
   overflow-x: hidden;
 }
 
@@ -127,10 +127,12 @@ p img {
 
 .header-logo {
   font-family: 'Bebas Neue', cursive;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   line-height: 1;
   text-decoration: none;
   color: $col-dark-text;
+  outline: .1rem solid;
+  padding: .2rem .4rem;
 
   &:link, &:visited {
     color: $col-dark-text;
@@ -146,8 +148,8 @@ p img {
 }
 
 .header-nav {
-  margin: .5rem 0 0;
-  line-height: 1.5;
+  margin: 1rem 0 0;
+  line-height: 1;
 
   a {
     margin: 0 .5rem 0 0;
