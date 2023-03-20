@@ -155,11 +155,11 @@ p img {
 
     @media (prefers-color-scheme: light) {
       color: $col-light-highlight;
-      text-underline-offset: 0.5em;
     }
 
     &:hover, &:active, &:focus {
       text-decoration: underline;
+      text-underline-offset: 0.5em;
     }
   }
 
