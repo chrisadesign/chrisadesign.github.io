@@ -186,6 +186,14 @@ p img {
   overflow: hidden;
 }
 
-footer p {
-  font-size: .8rem;
+footer {
+  font-size: .6rem;
+
+  * + * {
+    margin-top: .5rem;
+  }
+
+  #wcb.carbonbadge {
+    text-align: left;
+  }
 }
