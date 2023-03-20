@@ -17,7 +17,7 @@ html {
 
   background: $col-dark-main;
   color: $col-light-main;
-  border-top: .3rem solid $col-link;
+  border-top: .5rem solid $col-link;
 
   @media (prefers-color-scheme: light) {
     background: $col-light-main;
@@ -79,13 +79,14 @@ li + li {
 }
 
 .header-logo {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   line-height: 1;
   text-decoration: none;
   color: $col-light-main;
 
   &:hover {
     text-decoration: underline;
+    text-decoration-color: #fbb829;
   }
 
   &:link, &:visited {
@@ -103,7 +104,7 @@ li + li {
 
 .header-nav {
   margin: .5rem 0 0;
-  line-height: 1;
+  line-height: 1.5;
 
   a {
     margin: 0 .5rem 0 0;
@@ -128,34 +129,36 @@ li + li {
 }
 
 :focus {
-  outline: .125rem solid $col-highlight;
+  outline: .125rem solid $col-link;
   outline-offset: .125rem;
 
   @media (prefers-color-scheme: light) {
-    outline-color: $col-link;
+    outline-color: $col-highlight;
   }
 }
 
 a {
-  color: $col-highlight;
+  color: $col-light-main;
+  text-decoration-color: $col-highlight;
 
   &:link, &:visited {
-    color: $col-highlight;
+    color: color: $col-light-main;
   }
 
   &:hover, &:active, &:focus {
-    color: $col-link;
+    color: $col-highlight;
   }
 
   @media (prefers-color-scheme: light) {
-    color: $col-link;
+    color: $col-dark-main;
+    text-decoration-color: $col-link;
 
     &:link, &:visited {
-      color: $col-link;
+      color: $col-dark-main;
     }
 
     &:hover, &:active, &:focus {
-      color: $col-highlight;
+      color: $col-link;
     }
   }
 }
