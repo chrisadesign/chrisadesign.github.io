@@ -80,6 +80,7 @@ li + li {
 
 a {
   color: $col-dark-text;
+  text-decoration-color: $col-dark-highlight;
 
   &:link, &:visited {
     color: $col-dark-text;
@@ -91,6 +92,7 @@ a {
 
   @media (prefers-color-scheme: light) {
     color: $col-light-text;
+    text-decoration-color: $col-light-highlight;
 
     &:link, &:visited {
       color: $col-light-text;
