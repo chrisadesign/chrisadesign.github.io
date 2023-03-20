@@ -6,11 +6,10 @@ permalink: /about/
 
 ## Interaction designer with <span id="exp"><span class="years">00</span> years, <span class="days">00</span> days, <span class="hours">00</span> hours, <span class="minutes">00</span> minutes experience</span>
 
-I&rsquo;m a user centred design contractor who helps government departments to deliver great services for their users.
+I'm a user centred design contractor who helps government departments to deliver great services for their users.
 
-At the moment I&rsquo;m working with [HM Courts &amp; Tribunals Service]([https://www.gov.uk/government/organisations/planning-inspectorate](https://www.gov.uk/government/organisations/hm-courts-and-tribunals-service)).
-
-I&rsquo;ve also spent time with:
+I've also spent time with:
+* [HM Courts &amp; Tribunals Service]([https://www.gov.uk/government/organisations/planning-inspectorate](https://www.gov.uk/government/organisations/hm-courts-and-tribunals-service))
 * [Planning Inspectorate](https://www.gov.uk/government/organisations/planning-inspectorate) on the appeal a planning decision beta
 * [Cabinet Office](https://www.gov.uk/government/organisations/cabinet-office) on a beta to improve the process for applying for a Gender Recognition Certificate
 * [GDS](https://www.gov.uk/government/organisations/government-digital-service) helping with continuous improvement for GovWifi

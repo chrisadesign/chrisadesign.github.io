@@ -14,5 +14,3 @@ As of right now it includes:
 - a link in the footer to the git repo
 - a feature and versioning system
 - a date filter
-
-I was thinking of adding a few more things as and when, but if you have any suggestions feel free to [get in touch on Twitter](https://twitter.com/chrisnothanson).

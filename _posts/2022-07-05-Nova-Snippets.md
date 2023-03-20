@@ -10,3 +10,5 @@ The extension contains “clips” (aka snippets) of the GOV.UK Design System, i
 You can find a list of everything that's included and [install the extension](https://extensions.panic.com/extensions/ca/ca.GOVUKDesignSystemSnippets/) over on the Nova site.
 
 If anyone is using Nova check it out 👍
+
+> Update: This is now listed on the [Design System resources and tools page](https://design-system.service.gov.uk/community/resources-and-tools/#write-code).
