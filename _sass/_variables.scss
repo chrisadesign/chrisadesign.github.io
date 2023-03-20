@@ -1,8 +1,10 @@
 // Colours
 $col-dark-main: #0f1624;
 $col-light-main: #f5f5f5;
-$col-link: #1693a5;
-$col-highlight: #fbb829;
+$col-dark-highlight: #fbb829;
+$col-light-highlight: #1693a5;
+$col-dark-text: $col-light-main;
+$col-light-text: $col-dark-main;
 
 // Fonts
 $system-fonts: "Alice", serif;
