@@ -127,10 +127,6 @@ p img {
   text-decoration: none;
   color: $col-dark-text;
 
-  &:hover {
-    text-decoration: underline;
-  }
-
   &:link, &:visited {
     color: $col-dark-text;
   }
