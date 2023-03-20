@@ -146,6 +146,16 @@ p img {
 
   a {
     margin: 0 .5rem 0 0;
+    text-decoration: none;
+    color: $col-dark-highlight;
+
+    @media (prefers-color-scheme: light) {
+      color: $col-light-highlight;
+    }
+
+    &:hover, &:active, &:focus {
+      text-decoration: underline;
+    }
   }
 
   @media (min-width: 600px) {
