@@ -29,12 +29,54 @@ html {
 body {
   margin: 0 auto;
   width: 90%;
-  max-width: 30rem;
+  max-width: 26rem;
   overflow-x: hidden;
+}
+
+main {
+  display: block;
+  margin: 0;
+  padding: 0 0 10rem;
 }
 
 header {
   padding: 6rem 0 0;
+}
+
+h1, h2, h3 {
+  font-weight: 400;
+  line-height: 1.1;
+  margin: 2rem 0 0;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+h3 + p {
+  margin-top: 0.5rem;
+}
+
+* + * {
+  margin-top: 1rem;
+}
+
+p + p {
+  margin-top: 0.75rem;
+}
+
+li + li {
+  margin-top: 0.25rem;
 }
 
 .header-logo {
@@ -80,32 +122,14 @@ header {
   }
 }
 
-main {
-  display: block;
-  margin: 0;
-  padding: 0 0 10rem;
-}
-
-* + * {
-  margin-top: 1rem;
-}
-
-p + p {
-  margin-top: 0.75rem;
-}
-
-li + li {
-  margin-top: 0.25rem;
-}
 .post + .post {
   padding-top: 1rem;
 }
 
-.read-more, .date {
+.date {
   text-transform: uppercase;
   font-size: 0.6rem;
 }
-
 
 :focus {
   outline: .125rem solid $col-link;
@@ -138,30 +162,6 @@ a {
       color: $col-link;
     }
   }
-}
-
-h1, h2, h3 {
-  font-weight: 400;
-  line-height: 1.1;
-  margin: 2rem 0 0;
-}
-
-h1 {
-  font-size: 2rem;
-}
-
-h2 {
-  font-size: 1.5rem;
-}
-
-h3 {
-  font-size: 1rem;
-  text-transform: uppercase;
-  margin-bottom: 0;
-}
-
-h3 + p {
-  margin-top: 0.5rem;
 }
 
 blockquote {
