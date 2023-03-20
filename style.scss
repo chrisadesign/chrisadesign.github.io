@@ -8,6 +8,7 @@ html {
   font-size: calc(#{$font-size-default} + 0.5vw);
   line-height: $line-height-default;
   overflow-wrap: break-word;
+  text-underline-offset: 0.2em;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
@@ -27,8 +28,8 @@ html {
 
 body {
   margin: 0 auto;
-  width: 95%;
-  max-width: 35rem;
+  width: 90%;
+  max-width: 30rem;
   overflow-x: hidden;
 }
 
@@ -181,10 +182,10 @@ p img {
 }
 
 .visually-hidden {
-    position: absolute;
-    top: auto;
-    left: -9999rem;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
+  position: absolute;
+  top: auto;
+  left: -9999rem;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
