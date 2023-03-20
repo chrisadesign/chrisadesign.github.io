@@ -23,4 +23,4 @@ I've spent time with:
 
 ### Get in touch
 
-If you want to know a bit more about my work history or get in touch you can [connect on LinkedIn](https://www.linkedin.com/in/chrispaularmstrong/).
+If you want to know a bit more about my work history or get in touch you can [connect on LinkedIn](https://www.linkedin.com/in/chrisadesign/).
