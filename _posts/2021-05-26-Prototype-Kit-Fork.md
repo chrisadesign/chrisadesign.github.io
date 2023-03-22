@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Prototype kit fork
+title: Prototype kit starter, a fork of the official kit
 ---
 
 When I start a new prototype for gov projects I tend to go do a lot of the same things, a lot of the same setup. To try and save myself some time I decided to fork the kit and have a version ready with some of the changes I like to make, and I figured I'd share it, because why not and open source and things.
