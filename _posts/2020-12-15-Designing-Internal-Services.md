@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Designing internal services, using the GOV.UK Design System, and one thing per page
+title: Designing internal services using the GOV.UK Design System, and why you should use it
 ---
 
 I wanted to share some thoughts on designing for internal (caseworker) services/products in gov as I’ve heard from many people, in many departments, across multiple projects, that the [GOV.UK Design System](https://design-system.service.gov.uk/) is “not suitable for caseworker systems”, usually followed with something about the recommendation to start with one thing per page being the reason.
