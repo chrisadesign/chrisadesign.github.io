@@ -9,7 +9,7 @@ permalink: /about/
 I'm a user centred design contractor who helps government departments to deliver great services for their users.
 
 I've spent time with:
-* [HM Courts &amp; Tribunals Service]([https://www.gov.uk/government/organisations/planning-inspectorate](https://www.gov.uk/government/organisations/hm-courts-and-tribunals-service))
+* [HM Courts &amp; Tribunals Service](https://www.gov.uk/government/organisations/hm-courts-and-tribunals-service)
 * [Planning Inspectorate](https://www.gov.uk/government/organisations/planning-inspectorate) on the appeal a planning decision beta
 * [Cabinet Office](https://www.gov.uk/government/organisations/cabinet-office) on a beta to improve the process for applying for a Gender Recognition Certificate
 * [GDS](https://www.gov.uk/government/organisations/government-digital-service) helping with continuous improvement for GovWifi
