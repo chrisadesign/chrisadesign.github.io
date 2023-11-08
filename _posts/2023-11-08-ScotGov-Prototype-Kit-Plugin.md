@@ -3,7 +3,7 @@ layout: post
 title: GOV.UK Prototype Kit plugin for the Scottish Government Design System
 ---
 
-A couple of years ago I created a fork of the prototype kit with the Scottish design system (ScotDS) embedded in it. I've not looked at it since and it's likely very out of date, but tings have also moved on with the prototype kit which now has plugins, so I've had a crack at creating a plugin to bring the ScotDS into the kit.
+A couple of years ago I created a fork of the prototype kit with the Scottish Design Dystem (ScotDS) embedded in it. I've not looked at it since and it's likely very out of date, plus things have moved on with the prototype kit which now has plugins, so I've had a crack at creating a plugin to bring the ScotDS into the kit.
 
 ## How to use
 
@@ -13,6 +13,6 @@ Once you have a version of the prototype kit installed,
 - open **app/views/layouts/main.html** and change the extend from **"govuk-prototype-kit/layouts/govuk-branded.njk"** to **"/scotgov-prototype-plugin/scotgov-template.njk"**
 - run **npm run dev** as usual
 
-That should get you up and running, the ScotDS has a different structure and class names so you'll want to copy update the default code in the index file.
+That should get you up and running, the ScotDS has a different structure and class names so you'll want to update the default code in the index file or things will look at bit wonky.
 
 I've set this up quickly (and unofficially) so there might be bugs, but I'll hopefully be starting some work within ScotGov soon so this might evolve as I need more from it.
