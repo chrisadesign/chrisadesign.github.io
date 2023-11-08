@@ -15,18 +15,16 @@ Once you have a version of the prototype kit installed,
 
 That should get you up and running, the ScotDS has a different structure and class names so you'll want to copy update the default code in the index file, something like:
 
-```
-{% block content %}
-	<div class="ds_layout__header">
-		<div class="ds_page-header">
-			<h1>Scottish prototyping</h1>
-		</div>
-	</div>
 
-	<div class="ds_layout__content">
-		<p>Hello world.</p>
-	</div>
-{% endblock %}
-```
+	{% block content %}
+		<div class="ds_layout__header">
+			<div class="ds_page-header">
+				<h1>Scottish prototyping</h1>
+			</div>
+		</div>
+		<div class="ds_layout__content">
+			<p>Hello world.</p>
+		</div>
+	{% endblock %}
 
 I've set this up quickly (and unofficially) so there might be bugs, but I'll hopefully be starting some work within ScotGov soon so this might evolve as I need more from it.
