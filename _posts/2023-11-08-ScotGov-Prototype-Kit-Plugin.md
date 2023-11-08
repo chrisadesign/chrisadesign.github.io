@@ -13,18 +13,6 @@ Once you have a version of the prototype kit installed,
 - open `app/views/layouts/main.html` and change the line `{% extends "govuk-prototype-kit/layouts/govuk-branded.njk" %}` to `{% extends "/scotgov-prototype-plugin/scotgov-template.njk" %}`
 - run `npm run dev` as usual
 
-That should get you up and running, the ScotDS has a different structure and class names so you'll want to copy update the default code in the index file, something like:
-
-
-	{% block content %}
-		<div class="ds_layout__header">
-			<div class="ds_page-header">
-				<h1>Scottish prototyping</h1>
-			</div>
-		</div>
-		<div class="ds_layout__content">
-			<p>Hello world.</p>
-		</div>
-	{% endblock %}
+That should get you up and running, the ScotDS has a different structure and class names so you'll want to copy update the default code in the index file.
 
 I've set this up quickly (and unofficially) so there might be bugs, but I'll hopefully be starting some work within ScotGov soon so this might evolve as I need more from it.
