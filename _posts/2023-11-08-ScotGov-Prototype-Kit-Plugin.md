@@ -16,3 +16,5 @@ Once you have a version of the prototype kit installed,
 That should get you up and running, the ScotDS has a different structure and class names so you'll want to update the default code in the index file or things will look at bit wonky.
 
 I've set this up quickly (and unofficially) so there might be bugs, but I'll hopefully be starting some work within ScotGov soon so this might evolve as I need more from it.
+
+[View the plugin npm package](https://www.npmjs.com/package/scotgov-prototype-plugin).
